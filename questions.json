@@ -1,0 +1,118 @@
+{
+    "categories": [
+      {
+        "name": "Hardware",
+        "questions": [
+            { "question": "CPU", "points": 200, "answer": "Central processing unit" },
+            { "question": "GPU", "points": 200, "answer": "Graphics processing unit" },
+            { "question": "RAM", "points": 200, "answer": "Random Access Memory" },
+            { "question": "MB", "points": 400, "answer": "Mother Board"},
+            { "question": "SSD", "points": 400, "answer": "Solid State Drive" },
+            { "question": "USB", "points": 400, "answer": "Universal Serial Bus"},
+            { "question": "ROM", "points": 600, "answer": "Read-Only Memory" },
+            { "question": "HDD", "points": 600, "answer": "Hard Disk Drive" },
+            { "question": "PSU", "points": 800, "answer": "Power Supply Unit" },
+            { "question": "VRAM", "points": 800, "answer": "Video Random Access Memory" },
+            { "question": "VRM", "points": 1000, "answer": "Voltage Regulator Module" },
+            { "question": "PCI", "points": 1000, "answer": "Peripheral Component Interconnect" },
+            { "question": "PCI-E", "points": 1000, "answer": "Peripheral Component Interconnect Express" }
+        ]
+      },
+      {
+        "name": "Networking",
+        "questions": [
+            { "question": "LAN", "points": 200, "answer": "Local Area Network" },
+            { "question": "IP", "points": 200, "answer": "Internet Protocol" },
+            { "question": "WAN", "points": 200, "answer": "Wide Area Network" },
+            { "question": "WLAN", "points": 400, "answer": "Wireless Local Area Network" },
+            { "question": "ISP", "points": 400, "answer": "Internet Service Provider" },
+            { "question": "MTU", "points": 400, "answer": "Maximum Transmission Unit" },
+            { "question": "DNS", "points": 600, "answer": "Domain Name System" },
+            { "question": "NIC", "points": 600, "answer": "Network Interface Card" },
+            { "question": "TCP", "points": 600, "answer": "Transmission Control Protocol" },
+            { "question": "UDP", "points": 800, "answer": "User Datagram Protocol" },
+            { "question": "MAC", "points": 800, "answer": "Media Access Control" },
+            { "question": "NAS", "points": 800, "answer": "Network Attached Storage" },
+            { "question": "DHCP", "points": 1000, "answer": "Dynamic Host Configuration Protocol" },
+            { "question": "Wi-Fi", "points": 1000, "answer": "Wireless Fidelity" }
+        ]
+      },      
+      {
+        "name": "Programming Languages",
+        "questions": [
+            { "question": "HTML", "points": 200, "answer": "Hypertext Markup Language" },
+            { "question": "JS", "points": 200, "answer": "JavaScript" },
+            { "question": "CSS", "points": 400, "answer": "Cascading Style Sheets" },
+            { "question": "TS", "points": 400, "answer": "TypeScript" },
+            { "question": "JSON", "points": 400, "answer": "JavaScript Object Notation" },
+            { "question": "PHP", "points": 600, "answer": "Hypertext Preprocessor" },
+            { "question": "SQL", "points": 600, "answer": "Structured Query Language" },
+            { "question": "VBS", "points": 600, "answer": "Visual Basic Script" },
+            { "question": "APL", "points": 800, "answer": "A Programming Language" },
+            { "question": "XML", "points": 800, "answer": "eXtensible Markup Language" },
+            { "question": "PERL", "points": 800, "answer": "Practical Extraction and Reporting Language" },
+            { "question": "BASIC", "points": 1000, "answer": "Beginner's All-purpose Symbolic Instruction Code" },
+            { "question": "FORTRAN", "points": 1000, "answer": "Formula Translation" }
+        ]
+      },
+      {
+        "name": "Database Management",
+        "questions": [
+            { "question": "SQL", "points": 200, "answer": "Structured Query Language" },
+            { "question": "RAID", "points": 200, "answer": "Redundant Array of Independent Disks" },
+            { "question": "1:M", "points": 200, "answer": "One-to-Many" },
+            { "question": "NoSQL", "points": 400, "answer": "Non-relational Database" },
+            { "question": "DDL", "points": 400, "answer": "Data Definition Language" },
+            { "question": "1:1", "points": 400, "answer": "One-to-One" },
+            { "question": "ORM", "points": 600, "answer": "Object-Relational Mapping" },
+            { "question": "DML", "points": 600, "answer": "Data Manipulation Language" },
+            { "question": "M:1", "points": 600, "answer": "Many-to-One" },
+            { "question": "DLL", "points": 800, "answer": "Dynamic Link Library" },
+            { "question": "DBMS", "points": 800, "answer": "Database Management System" },
+            { "question": "CRUD", "points": 1000, "answer": "Create Read Update Delete" },
+            { "question": "ACID", "points": 1000, "answer": "Atomicity Consistency Isolation Durability" }
+        ]
+      },
+      {
+        "name": "Graphics",
+        "questions": [
+            { "question": "GUI", "points": 200, "answer": "Graphical User Interface" },
+            { "question": "VR", "points": 200, "answer": "Virtual Reality" },
+            { "question": "AR", "points": 200, "answer": "Augmented Reality" },
+            { "question": "PPI", "points": 400, "answer": "Pixels Per Inch" },
+            { "question": "RGB", "points": 400, "answer": "Red Green Blue" },
+            { "question": "FPS", "points": 400, "answer": "Frames Per Second" },
+            { "question": "DPI", "points": 600, "answer": "Dots Per Inch" },
+            { "question": "DP", "points": 600, "answer": "DisplayPort" },
+            { "question": "HDR", "points": 600, "answer": "High Dynamic Range" },
+            { "question": "VGA", "points": 800, "answer": "Video Graphics Array" },
+            { "question": "DVI", "points": 800, "answer": "Digital Visual Interface" },
+            { "question": "CMYK", "points": 1000, "answer": "Cyan Magenta Yellow Key" },
+            { "question": "HDMI", "points": 1000, "answer": "High-Definition Multimedia Interface" }
+        ]
+      },
+      {
+        "name": "Linux",
+        "questions": [
+            { "question": "CD", "points": 200, "answer": "Change Directory" },
+            { "question": "LS", "points": 200, "answer": "List" },
+            { "question": "MKDIR", "points": 200, "answer": "Make Directory" },
+            { "question": "RM", "points": 400, "answer": "Remove" },
+            { "question": "CP", "points": 400, "answer": "Copy" },
+            { "question": "MV", "points": 400, "answer": "Move" },
+            { "question": "PWD", "points": 400, "answer": "Print Working Directory" },
+            { "question": "SCP", "points": 600, "answer": "Secure Copy" },
+            { "question": "CHMOD", "points": 600, "answer": "Change Mode" },
+            { "question": "CLI", "points": 600, "answer": "Command Line Interface" },
+            { "question": "CAT", "points": 600, "answer": "Concatenate" },
+            { "question": "GREP", "points": 800, "answer": "Global Regular Expression Print" },
+            { "question": "APT", "points": 800, "answer": "Advanced Package Tool" },
+            { "question": "SSH", "points": 800, "answer": "Secure SHell" },
+            { "question": "CHOWN", "points": 800, "answer": "Change Ownership" },
+            { "question": "SUDO", "points": 1000, "answer": "Superuser Do" },
+            { "question": "CHGRP", "points": 1000, "answer": "Change Group" }
+        ]
+      }
+      
+    ]
+  }
