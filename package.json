@@ -1,6 +1,6 @@
 {
-  "name": "cs-acronym-jeopardy",
-  "version": "1.0.12",
+  "name": "@kyllan/cs-acronym-jeopardy",
+  "version": "1.0.13",
   "description": "Welcome to Computer Science Acronym Jeopardy",
   "type": "module",
   "main": "index.js",
@@ -24,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/kyllan16693/CS-Acronym-Jeopardy/issues"
   },
-  "homepage": "https://github.com/kyllan16693/CS-Acronym-Jeopardy#readme"
+  "homepage": "https://github.com/kyllan16693/CS-Acronym-Jeopardy#readme",
+  "devDependencies": {}
 }
