@@ -1,10 +1,13 @@
 {
-  "name": "CS-Acronym-Jeopardy",
+  "name": "cs-acronym-jeopardy",
   "version": "1.0.0",
   "description": "Welcome to Computer Science Acronym Jeopardy",
   "main": "index.js",
   "scripts": {
     "start": "jiti ./index.js"
+  },
+  "bin": {
+    "CS-Acronym-Jeopardy": "index.js"
   },
   "keywords": [],
   "author": "Kyllan Wunder",
@@ -17,10 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyllan16693/CSAG.git"
+    "url": "git+https://github.com/kyllan16693/CS-Acronym-Jeopardy.git"
   },
   "bugs": {
-    "url": "https://github.com/kyllan16693/CSAG/issues"
+    "url": "https://github.com/kyllan16693/CS-Acronym-Jeopardy/issues"
   },
-  "homepage": "https://github.com/kyllan16693/CSAG#readme"
+  "homepage": "https://github.com/kyllan16693/CS-Acronym-Jeopardy#readme",
+  "devDependencies": {}
 }
