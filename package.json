@@ -1,11 +1,9 @@
 {
   "name": "cs-acronym-jeopardy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Welcome to Computer Science Acronym Jeopardy",
   "main": "index.js",
-  "scripts": {
-    "start": "jiti ./index.js"
-  },
+  "scripts": {},
   "bin": {
     "CS-Acronym-Jeopardy": "index.js"
   },
@@ -15,7 +13,6 @@
   "dependencies": {
     "@clack/core": "^0.3.3",
     "@clack/prompts": "^0.7.0",
-    "jiti": "^1.19.1",
     "timers": "^0.1.1"
   },
   "repository": {
@@ -25,6 +22,5 @@
   "bugs": {
     "url": "https://github.com/kyllan16693/CS-Acronym-Jeopardy/issues"
   },
-  "homepage": "https://github.com/kyllan16693/CS-Acronym-Jeopardy#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/kyllan16693/CS-Acronym-Jeopardy#readme"
 }
