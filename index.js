@@ -12,7 +12,7 @@ import {
 } from '@clack/prompts';
 import { setTimeout} from 'timers/promises';
 import color from 'picocolors';
-import { EventEmitter } from "node:stream"; EventEmitter.setMaxListeners(0);
+//import { EventEmitter } from "node:stream"; EventEmitter.setMaxListeners(0);
 
 function addingSpaces(word) {
   var word = word.toString();

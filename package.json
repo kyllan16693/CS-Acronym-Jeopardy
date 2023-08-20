@@ -1,7 +1,8 @@
 {
   "name": "cs-acronym-jeopardy",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Welcome to Computer Science Acronym Jeopardy",
+  "type": "module",
   "main": "index.js",
   "scripts": {},
   "bin": {
