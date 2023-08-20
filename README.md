@@ -1,9 +1,11 @@
 # CS-Acronym-Jeopardy
 Welcome to CS-Acronym-Jeopardy
 
-## Install
+## Play
+Any computer that has [node.js installed](https://nodejs.org/en/download) can run this game.
 ```
-npm i cs-acronym-jeopardy
+npx @kyllan/cs-acronym-jeopardy
 ```
+
 
 View on npm here: [https://www.npmjs.com/package/cs-acronym-jeopardy](https://www.npmjs.com/package/cs-acronym-jeopardy)
