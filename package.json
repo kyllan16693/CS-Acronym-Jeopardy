@@ -1,6 +1,6 @@
 {
   "name": "cs-acronym-jeopardy",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "Welcome to Computer Science Acronym Jeopardy",
   "type": "module",
   "main": "index.js",
@@ -14,6 +14,7 @@
   "dependencies": {
     "@clack/core": "^0.3.3",
     "@clack/prompts": "^0.7.0",
+    "load-json-file": "^7.0.1",
     "timers": "^0.1.1"
   },
   "repository": {

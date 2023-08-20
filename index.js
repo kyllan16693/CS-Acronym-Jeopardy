@@ -10,9 +10,10 @@ import {
   cancel,
   text,
 } from '@clack/prompts';
-import { setTimeout} from 'timers/promises';
+import { setTimeout } from 'timers/promises';
 import color from 'picocolors';
-//import { EventEmitter } from "node:stream"; EventEmitter.setMaxListeners(0);
+import categories from './questions.json' assert {type : "json"};
+//import EventEmitter from "node:stream"; EventEmitter.setMaxListeners(0);
 
 function addingSpaces(word) {
   var word = word.toString();
@@ -93,7 +94,6 @@ async function main() {
 
   var game = true;
   var score = 0;
-  var categories = require('./questions.json');
   var categoryArray = [];
   for (var i = 0; i < 6; i++) {
     categoryArray.push(categories.categories[i].name);
