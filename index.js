@@ -12,8 +12,8 @@ import {
 } from '@clack/prompts';
 import { setTimeout } from 'timers/promises';
 import color from 'picocolors';
-import categories from './questions.json' assert {type : "json"};
-//import EventEmitter from "node:stream"; EventEmitter.setMaxListeners(0);
+import categories from './questions.json' assert {type: "json"};
+import EventEmitter from 'events'; EventEmitter.setMaxListeners(0);
 
 function addingSpaces(word) {
   var word = word.toString();
@@ -21,7 +21,7 @@ function addingSpaces(word) {
   var spaces = '';
   var front = Math.floor((totalLength - word.length) / 2);
   var back = totalLength - word.length - front;
-  
+
   for (var i = 0; i < front; i++) {
     spaces += ' ';
   }
@@ -76,9 +76,9 @@ async function main() {
   }
 
   const ready = await confirm({
-    message: '                               Welcome to ...\n' + 
-    logo + 
-    'Are you ready to play ' + name + '?\n',
+    message: '                               Welcome to ...\n' +
+      logo +
+      'Are you ready to play ' + name + '?\n',
     initial: true,
   });
 
@@ -246,7 +246,7 @@ async function main() {
         cancel('Operation cancelled');
         return process.exit(0);
       }
-      if(!Continue) {
+      if (!Continue) {
         game = Continue;
         break;
       }
@@ -263,7 +263,7 @@ async function main() {
         cancel('Operation cancelled');
         return process.exit(0);
       }
-      if(!Continue) {
+      if (!Continue) {
         game = Continue;
         break;
       }
@@ -286,8 +286,8 @@ async function main() {
 
   }
 
-  outro('                               Thanks for playing \n' + 
-    logo + 
+  outro('                               Thanks for playing \n' +
+    logo +
     'Your final score is: ' + score + '\n' +
     'See you next time!');
   await setTimeout(1000);
