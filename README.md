@@ -1,4 +1,10 @@
 # CS-Acronym-Jeopardy
+![npm downloads](https://img.shields.io/npm/dw/@kyllan/cs-acronym-jeopardy)
+![npm version](https://img.shields.io/npm/v/cs-acronym-jeopardy)
+![GitHub last commit](https://img.shields.io/github/last-commit/UW-Madison-DSI/Covid19Wastewater)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/UW-Madison-DSI/Covid19Wastewater)](https://github.com/UW-Madison-DSI/Covid19Wastewater/pulls)
+![codesize](https://img.shields.io/github/languages/code-size/UW-Madison-DSI/Covid19Wastewater)
+
 Welcome to CS-Acronym-Jeopardy! A computer science acronym guessing game in the style of jeopardy which you can play directly from your favorite command line interface.
 
 ## Play
