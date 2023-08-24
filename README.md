@@ -1,5 +1,5 @@
 # CS-Acronym-Jeopardy
-![npm downloads](https://img.shields.io/npm/dw/@kyllan/cs-acronym-jeopardy)
+![npm downloads](https://img.shields.io/npm/dw/cs-acronym-jeopardy)
 ![npm version](https://img.shields.io/npm/v/cs-acronym-jeopardy)
 ![GitHub last commit](https://img.shields.io/github/last-commit/UW-Madison-DSI/Covid19Wastewater)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/UW-Madison-DSI/Covid19Wastewater)](https://github.com/UW-Madison-DSI/Covid19Wastewater/pulls)
